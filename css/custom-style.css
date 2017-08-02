@@ -1,0 +1,242 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Playball);
+@import url(http://fonts.googleapis.com/css?family=Amaranth:400,400italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+body{
+	background:url(../images/main-bg_01.png) no-repeat #725e43;
+    color: #575757;
+    font-family:"Myriad Pro", Helvetica, sans-serif;
+    margin: 0;
+	font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    text-align:justify;
+	background-size:100%;
+}
+.wrapper{
+	margin: 0 auto;
+    width: 1000px;
+}
+		
+.pull-left{
+	float:left;
+}
+.pull-right{
+	float:right;
+}
+.bg-logo img {
+    margin:35px 0 10px 0;
+}
+.clearfix{
+	clear:both;
+}
+
+.bg-nav{
+	background:url(../images/menu-bg_06.png) repeat-x;
+	height:50px;
+	border-radius:25px;
+}
+.bg-slide {
+   margin-top: -50px;
+    z-index: -9999 !important;
+}
+.bg-top-scroll{
+	background:#7e5c24;
+	height:80px;
+	border-radius:10px;
+	box-shadow:0px 0px 2px 3px #543d18 inset;
+	margin:30px 0 20px 0;
+}
+.last{
+	margin-right:0px !important;
+}
+.content{
+	background:#fff;
+	padding:10px;
+	border-radius:10px;
+	box-shadow:2px 2px 2px 2px #c5c5c5;
+	height:465px;
+}
+
+.content h1{
+	font-family: Georgia,"Times New Roman",Times,serif;
+	color: #fff;
+	text-align: right;
+	font-size:25px;
+}
+h1.title1{
+	 background: url("../images/welcome-bg.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+   	 height: 56px;
+    margin: 0 -30px 0 0;
+    padding:20px 100px 0 0;
+border:none !important;
+}
+h1.title2{
+	 background: url("../images/principal-bg.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+    height: 56px;
+    margin: 0 -30px 0 0;
+    padding:20px 40px 0 0;
+border:none !important;
+}
+h1.title3{
+	 background: url("../images/gallery-bg.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+    height: 56px;
+    margin: 0 -30px 0 0;
+    padding:20px 50px 0 0;
+border:none !important;
+}
+.content > img {
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+    margin-left: 7px;
+    padding: 0;
+}
+.content p {
+    margin-left: 7px;
+}
+.thumb-shadow{
+	background:url(../images/shadow_46.png) no-repeat center;
+}
+a.li-read{
+	color:#e50c0c;
+	transition:all 2s color;
+	-moz-transition:all 2s color;
+	-o-transition:all 2s color;
+	-webkit-transition:all 2s color;
+	font-size:14px;
+}
+a.li-read:hover{
+	color:#686868;
+}
+footer{
+	background:#e6d5b7;
+	padding:15px 0;
+	margin-top:50px;
+}
+footer h1{
+	color:#57421c;
+	font-family:"Georgia",Times New Roman,Times,serif;
+	font-size:22px;
+	margin:10px 0 15px 0;
+	border:none;
+        font-weight:normal !important;
+}
+footer ul li {
+    list-style: outside none none;
+    margin-left: 15px;
+	margin-bottom:5px;
+}
+a.li-footer{
+	color:#57421c;
+	font-family:"Georgia",Times New Roman,Times,serif;
+	transition:all 2s color;
+	-moz-transition:all 2s color;
+	-o-transition:all 2s color;
+	-webkit-transition:all 2s color;
+	font-size:15px;
+}
+a.li-footer:hover{
+	color:#9a8561;
+}
+p.footer-para {
+    line-height: 25px;
+    text-align: right;
+	color:#57421c;
+	  font-family: "Georgia",Times New Roman,Times,serif;
+    font-size: 14px;
+}
+.bg-top-scroll > h1 {
+     background: none repeat scroll 0 0 #7e5c24 !important;
+    border-radius: 5px 0 0;
+    box-shadow: 4px 4px 2px 0 #543d18 inset;
+    color: #e6d5b7;
+    font-family: "Georgia",Times New Roman,Times,serif;
+    height: 44px;
+    padding: 28px 0 0 35px;
+    position: absolute;
+    width: 175px;
+    z-index: 9999 !important;
+}
+
+.bg-top-scroll ul li {
+    float: left;
+    list-style: outside none none;
+}
+a.scroll-news{
+	color:#fff;
+	background:url(../images/stjoesph_08.png) no-repeat left center;
+	font-size:16px;
+	font-family: "Georgia",Times New Roman,Times,serif;
+	transition:all 2s color;
+	-moz-transition:all 2s color;
+	-o-transition:all 2s color;
+	-webkit-transition:all 2s color;
+	padding:0 0 0 30px;
+	line-height: 45px;
+}
+a.scroll-news:hover{
+	color:#e6d5b7;
+}
+.bg-static-content{
+	background: none repeat scroll 0 0 #fff;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: -50px !important;
+    margin-top: -20px;
+    padding: 50px 0 5px 20px;
+}
+.map {
+    margin-bottom: 20px;
+}
+.quotes {
+    background: none repeat scroll 0 0 #7e5c24;
+    border-radius: 5px;
+    box-shadow: 2px 1px 2px 2px #57421c inset;
+    color: #fff;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: lowercase;
+	margin-bottom:15px;
+}	
+.bg-prayer{
+	font-family: 'Playball', cursive;
+	font-size:25px;
+	text-align:center;
+	padding:15px 10px;
+	border-radius:10px;
+	width:900px;
+	line-height:40px;
+	margin:0 auto;
+}
+.static-thumb {
+    border: 2px solid #57421c;
+    border-radius: 5px;
+    margin: 0 20px;
+    padding: 5px;
+}
+.tbl-uniform th {
+    background: none repeat scroll 0 0 #595041;
+    border-right: 1px solid #fff;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.tbl-uniform tr.odd td {
+    background: none repeat scroll 0 0 #e6d5b7;
+    padding: 10px;
+	 border-right: 1px solid #fff;
+}
+.tbl-uniform tr.even td {
+    background: none repeat scroll 0 0 #fff6e6;
+    padding: 10px;
+	 border-right: 1px solid #fff;
+}
+.alert_failure {
+    color: #fff;
+    line-height: 80px;
+}
