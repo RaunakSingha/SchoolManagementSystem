@@ -119,9 +119,9 @@ if(isset($_REQUEST['upload']))
 	if($_FILES['myfile']['error']==0)
 	{
 		$source=$_FILES['myfile']['tmp_name'];
-$des=$_SERVER['DOCUMENT_ROOT']."/sms2/StuArticles/Uploaded Articles/".$_FILES['myfile']['name'];
+$des=$_SERVER['DOCUMENT_ROOT']."/SchoolManagementSystem/StuArticles/Uploaded Articles/".$_FILES['myfile']['name'];
 		(move_uploaded_file($source,$des));
-		$path="/sms2/StuArticles/Uploaded Articles/".$_FILES['myfile']['name'];
+		$path="/SchoolManagementSystem/StuArticles/Uploaded Articles/".$_FILES['myfile']['name'];
 			$qry="insert into adminarticle values('$_SESSION[aid]','$path','$_REQUEST[txt1]')";
 			mysql_query($qry);
 			if(mysql_affected_rows()>0)

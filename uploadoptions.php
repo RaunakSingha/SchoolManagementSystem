@@ -100,9 +100,9 @@ header("Location:studentlogin.php");
 <div class="clearfix">&nbsp;</div>
 <center>
 <form method="post" enctype="multipart/form-data" >
-<label>Enter Article Name:</label><br />
+<label>Enter Article Name:</label>
 <input type="text" name="txt1" value="<?php if(isset($_REQUEST['upload'])) echo $_REQUEST['txt1'] ?>" />
-<br />
+<br /><br />
 <label>Select Article File to Upload:</label><input type="file" name="myfile" />
 
 <br>
@@ -116,9 +116,9 @@ if(isset($_REQUEST['upload']))
 	if($_FILES['myfile']['error']==0)
 	{
 		$source=$_FILES['myfile']['tmp_name'];
-$des=$_SERVER['DOCUMENT_ROOT']."/sms2/StuArticles/Uploaded Articles/".$_FILES['myfile']['name'];
+$des=$_SERVER['DOCUMENT_ROOT']."/SchoolManagementSystem/StuArticles/Uploaded Articles/".$_FILES['myfile']['name'];
 		(move_uploaded_file($source,$des));
-		$path="/sms2/StuArticles/Uploaded Articles/".$_FILES['myfile']['name'];
+		$path="/SchoolManagementSystem/StuArticles/Uploaded Articles/".$_FILES['myfile']['name'];
 		$qry1="select name from students where pwd='$_SESSION[pwd]'";
 		
 		$res=mysql_query($qry1);
