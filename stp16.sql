@@ -59,9 +59,9 @@ CREATE TABLE IF NOT EXISTS `adminarticle` (
 --
 
 INSERT INTO `adminarticle` (`password`, `path`, `noticename`) VALUES
-('efgh', '/sms2/StuArticles/Uploaded Articles/1st 2nd Sem 13-14.pdf', 'sem 1'),
-('efgh', '/sms2/StuArticles/Uploaded Articles/1st(evn)2014-15 All.pdf', 'Question Paper'),
-('efgh', '/sms2/StuArticles/Uploaded Articles/Dan Brown - The Da Vinci Code.pdf', 'Book1');
+('efgh', '/SchoolManagementSystem/StuArticles/Uploaded Articles/1st 2nd Sem 13-14.pdf', 'sem 1'),
+('efgh', '/SchoolManagementSystem/StuArticles/Uploaded Articles/1st(evn)2014-15 All.pdf', 'Question Paper'),
+('efgh', '/SchoolManagementSystem/StuArticles/Uploaded Articles/Dan Brown - The Da Vinci Code.pdf', 'Book1');
 
 -- --------------------------------------------------------
 
@@ -80,12 +80,12 @@ CREATE TABLE IF NOT EXISTS `article` (
 --
 
 INSERT INTO `article` (`Name`, `Path`, `Articlename`) VALUES
-('Raunak', '/sms2/StuArticles/Uploaded Articles/LetUsC-YashwantKanetkar.pdf', 'Let Us C'),
-('Sayarik', '/sms2/StuArticles/Uploaded Articles/Digital Design -Morris Mano 5th Edition.pdf', 'Digital Design-Morris Mano'),
-('Raunak', '/sms2/StuArticles/Uploaded Articles/Angels and Demons - Dan Brown.pdf', 'Angels And Demons'),
-('Samadrita', '/sms2/StuArticles/Uploaded Articles/The Lost Symbol by Dan Brown.pdf', 'The Lost Symbols'),
-('Samadrita', '/sms2/StuArticles/Uploaded Articles/IMG-20151120-WA0012.jpg', 'Inorganic'),
-('Samadrita', '/sms2/StuArticles/Uploaded Articles/Book 3 - The Prisoner of Azkaban.pdf', 'Prisoner Of Azkaban');
+('Raunak', '/SchoolManagementSystem/StuArticles/Uploaded Articles/LetUsC-YashwantKanetkar.pdf', 'Let Us C'),
+('Sayarik', '/SchoolManagementSystem/StuArticles/Uploaded Articles/Digital Design -Morris Mano 5th Edition.pdf', 'Digital Design-Morris Mano'),
+('Raunak', '/SchoolManagementSystem/StuArticles/Uploaded Articles/Angels and Demons - Dan Brown.pdf', 'Angels And Demons'),
+('Samadrita', '/SchoolManagementSystem/StuArticles/Uploaded Articles/The Lost Symbol by Dan Brown.pdf', 'The Lost Symbols'),
+('Samadrita', '/SchoolManagementSystem/StuArticles/Uploaded Articles/IMG-20151120-WA0012.jpg', 'Inorganic'),
+('Samadrita', '/SchoolManagementSystem/StuArticles/Uploaded Articles/Book 3 - The Prisoner of Azkaban.pdf', 'Prisoner Of Azkaban');
 
 -- --------------------------------------------------------
 

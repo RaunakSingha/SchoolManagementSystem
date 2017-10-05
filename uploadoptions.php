@@ -102,7 +102,7 @@ header("Location:studentlogin.php");
 <form method="post" enctype="multipart/form-data" >
 <label>Enter Article Name:</label>
 <input type="text" name="txt1" value="<?php if(isset($_REQUEST['upload'])) echo $_REQUEST['txt1'] ?>" />
-<br /><br />
+<br /><>
 <label>Select Article File to Upload:</label><input type="file" name="myfile" />
 
 <br>
