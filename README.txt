@@ -1,20 +1,9 @@
-ADMIN Username FOR THE SITE: qwerty
-ADMIN Password FOR THE SITE: 1234
-STUDENT PASSWORDS:
-p501 for roll 501
-p502 for roll 502
-p503 for roll 503
-p601 for roll 601
-p602 for roll 602
-p603 for roll 603
-p701 for roll 701
-p702 for roll 702
-p703 for roll 703
-p801 for roll 801
-p802 for roll 802
-p803 for roll 803
+Import the databases using phpmyadmin from the databases folder post cloning.
+Student and Admin passwords are present in the database.
 
-when admin is logged in he cannot access pages like "upload student article" and "display marks"
-when student is logged in he cannot access pages like "new admission" "enter records" "delete records"
+Admin can register new students to the school, upload student's marks, upload notices, add a new admin etc.
+Students can upload articles, display their results and personal information by logging in to their respective account.
+When admin is logged in he cannot access pages like "upload student article" and "display marks".
+When student is logged in he cannot access pages like "new admission" "enter records" "delete records" "upload notices".
 
 ADMIN DUTIES AND STUDENT DUTIES CAN BE PERFORMED ONLY WHEN THEY ARE LOGGED IN OTHERWISE THEY ARE REDIRECTED TO THEIR LOGIN PAGES.
